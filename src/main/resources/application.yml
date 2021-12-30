@@ -1,0 +1,12 @@
+spring:
+  redis:
+    host: localhost
+    database: 9
+    port: 6379
+    
+logging:  level:    org.springframework.security: info
+
+token:
+    privateKey: 'fdasfgdsagaxgsregdfdjyghjfhebfdgwe45ygrfbsdfshfdsag'
+    yangToken: 1
+    oldToken: 3600000 #token过期时长1小时
